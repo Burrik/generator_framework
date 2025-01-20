@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Generate.Core
+namespace Generate.Core.Attributes
 {
   /// <summary>
   /// Атрибут для отображения опционального контейнера слоев в редакторе

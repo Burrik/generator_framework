@@ -2,6 +2,8 @@ using UnityEditor;
 using UnityEngine;
 using Generate.Core;
 
+namespace Generate.Core.Attributes
+{
 [CustomPropertyDrawer(typeof(OptionalLayersAttribute))]
 public class OptionalLayersDrawer : PropertyDrawer
 {
@@ -33,4 +35,5 @@ public class OptionalLayersDrawer : PropertyDrawer
 
     GUI.color = defaultColor;
   }
+}
 }

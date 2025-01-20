@@ -2,7 +2,7 @@ using UnityEngine;
 using Cysharp.Threading.Tasks;
 using System.Threading;
 using System;
-
+using Generate.Core.Attributes;
 
 namespace Generate.Core
 {

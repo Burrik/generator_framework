@@ -97,6 +97,7 @@ namespace Generate.Core
       }
 
       totalSw.Stop();
+      Debug.Log($"Total analysis time: {totalSw.ElapsedMilliseconds}ms");
       return (false, null, null);
     }
 
